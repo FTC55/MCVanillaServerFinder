@@ -10,6 +10,7 @@ This tool lets you easily scan for 100% vanilla Minecraft Servers starting from 
   <li><strong>mcversion</strong>      The version(s) to search for. Interval with a comma and no
                  spaces.
 <br />
+    The script will output to a file named 'results.txt'
 <p>optional arguments:</p>
 <li><strong>--pnum PNUM</strong>    Number of processes</li>
   <li><strong>--depth DEPTH</strong>  Depth of IP scan (between 1 and 2)</li>
