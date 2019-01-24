@@ -40,7 +40,7 @@ def serverfinder(x):
     except:
         return
     if query.software.version in mcversion and query.software.brand == "vanilla" and args.maxp >= query.players.online >= args.minp and "modinfo" not in status.raw:
-        print ("Hit!")
+        print ("Hit! :{}".format(x))
         return x
     
 if __name__ == '__main__':
